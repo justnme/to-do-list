@@ -30,7 +30,7 @@ function renderTasks() {
             '<input type="checkbox" onclick="toggleDone(' + i + ')" ' + (tasks[i].done ? 'checked' : '') + '>' +
             '<span>' + tasks[i].text + '</span>' +
             '<div class="task-controls">' +
-            '<button onclick="deleteTask(' + i + ')">Видалити</button>' +
+            '<button onclick="deleteTask(' + i + ')">Delete</button>' +
             '</div></div>';
     }
 }
